@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/selector_filter_left"
+    android:layout_height="match_parent">
+
+
+
+<com.baiiu.filter.view.FilterCheckedTextView
+    android:id="@+id/tv_left_item_filter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:enabled="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:textColor="@drawable/selector_tv_filter"
+    tools:text="选择" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_left_item_filter"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <com.baiiu.filter.view.FilterCheckedTextView
+        android:id="@+id/tv_right_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@drawable/selector_tv_filter"
+        tools:text="1.2km" />
+
+</RelativeLayout>
